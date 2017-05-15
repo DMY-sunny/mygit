@@ -1,0 +1,30 @@
+   /* 公共部分 */
+    *{margin:0px; padding:0px; margin:0 auto;}
+    li{list-style:none;}
+    a{ text-decoration:none; color:#000;}
+    a:hover{text-decoration:underline;}
+    .fl{ float:left;}
+    .fr{ float:right;}
+    .clear{ clear:both; height:10px;}
+    /* 头部部分 */
+    body{ background-color:#f6f9fb;}
+    #header{ width:870px; height:145px;}
+      .logo{ width:200px;height:80px;background:url(../../images/log2.jpg); margin-top:60px; }
+       .head-text{color:#828689;font-size:12px; margin-top:100px; }
+        .p1{background-color:#FEF7F5; border:1px solid red;margin-top:10px;text-align:right; height:30px;line-height:30px;}     
+        .p1 a{color:blue;}     
+
+    /* 主体部分 */
+    #main{ width:840px;  height:380px;background:#fff;  margin-top:5px; padding:15px;}
+    .login{ margin-top:30px;}
+      form{ width:360px; line-height:40px; }
+     .textlength{ height:40px;border:1px solid #ccc;border-radius:2px;}
+     .sub{background:red; width:300px; height:50px; font-size:20px;color:#fff;}
+
+     .fontsize{ font-size:13px;color:#787878;}
+     /* 页脚部分 */
+    #foot{ width:870px;  height:100px; text-align:center;margin-top:70px; }
+    .ajo{color:#787878;}
+    .ajo:hover{color:red;}    
+    
+    

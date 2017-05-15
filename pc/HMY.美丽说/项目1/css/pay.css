@@ -1,0 +1,197 @@
+ /* 全部样式 */
+*{
+    margin:0px;
+    padding:0px;
+}
+li{
+    list-style:none;
+}
+a:hover{text-decoration:underline;
+}
+.clear{
+    height:20px;
+    clear:both;
+}
+/* 容器样式 */
+#content{
+    width:1350px;
+    height:1000px;
+    margin:0px auto;
+}
+/* 容器结束 */
+/* 头部开始 */
+#header{
+    width:80%;
+    height:100px;
+    margin:0 auto;
+    border-bottom:5px solid orange;
+    margin-bottom:50px;
+    background:#fff7f7;
+}
+#header .heade_left{
+    float:left;
+    width:200px;
+    height:80px;
+    background:url("../image/7.png") no-repeat;
+    margin-top:20px;
+}
+#header .heade_right{
+    float:right;
+  
+}
+.heade_right ul{
+    margin-top:10px;
+    }
+.heade_right ul li {
+    float:left; 
+    width:60px; 
+    }
+.heade_right ul li  a{
+    text-decoration:none;
+    font:14px "微软雅黑";
+    } 
+ .heade_right ul li ul  li{
+    background:pink;
+    line-height:40px;
+ }
+.heade_right ul li ul  li:hover{
+    background:orange;
+ }
+.heade_right  ul li  a:hover{
+    color:red;
+    text-decoration:underline;
+    }
+.heade_right ul li  ul{
+    display:none;
+    }
+.heade_right ul li:hover ul{
+    display:block;
+    }
+.heade_right .heade_welcome{
+    margin-top:20px;
+    font: 14px "微软雅黑";
+    width:220px;
+    right:200px;
+    color:#fe3366;
+    float:right;
+}
+.heade_right p{
+    color:#fe3366;
+}
+/* 头部结束 */
+/* 中间开始 */
+#body{
+    width:100%;
+    height:600px;
+    border-bottom:5px solid orange;
+    margin-bottom:30px;
+    
+}
+ .body_head{
+    width:80%;
+    height:500px;
+    border:3px solid #dfc9b2;
+    margin:0 auto;
+    background:#fff7f7;
+}
+#body p span{
+    text-align:center;
+    color:#fe3366;
+    font-size:25px;
+    margin-top:50px;
+}
+ .body_head .body_sucess{
+    text-align:center;
+    color:#fe3366;
+    font-size:25px;
+    margin-top:50px;
+ }
+ .body_head .body_pay{
+    text-align:center;
+    font:25px "微软雅黑";
+    margin-top:50px;
+ }
+.body_head .body_look{
+    text-align:center;
+    font:16px;
+    margin-top:50px; 
+}
+.body_head .body_tixing{
+    font:16px;
+    margin-top:70px; 
+    margin-left:100px;
+    background:#fffae9;
+}
+.body_head .body_border{
+    margin-top:80px;
+    width:90%;
+    height:50px;
+    font:16px;
+    color:#dfc9b2;
+    border-top:1px solid #dfc9b2; 
+    text-align:center;
+    line-height:80px;
+}
+/* 页面中部结束 */
+/* 页面底部开始 */
+#foot{
+    width:100%;
+    height:346px;
+    background:#f5f5f5;
+}
+#foot table{
+    caption-side:bottom;
+    width:80%;
+    height:280px;
+    margin:0 auto;
+    border-spacing:5px;
+}
+#foot table .foot-caption{
+   color:#b6a48e;
+   font-size:10px;
+}
+#foot table th{
+    font-size:16px;
+    color:#b6a48e;
+    font-weight:bold;
+}
+#foot table tr td{
+    table-layout:fixed;
+    text-align:center;
+}
+ #foot table tr td a span{
+    width:30px;
+    height:30px;
+    padding-left:-10px;
+    float:left;
+    margin-left:-20px;
+}
+.foot-1 ,.foot-2,.foot-3 {
+    float:left;
+    position:relative;
+    right:-25px;
+}
+#foot table tr td .foot-1 {
+    background:url(../image/12.png) no-repeat 10px 0px;
+}
+#foot table tr td .foot-2 {
+    background:url(../image/12.png) no-repeat -18px 0px;
+}
+#foot table tr td .foot-3 {
+    background:url(../image/12.png) no-repeat -46px 0px;
+}
+#foot table tr td img{
+    width:150px;
+    height:150px;
+    
+}
+#foot table tr td a{
+    text-decoration:none;
+    text-align:center;
+    font-size:10px;
+    color:#b6a48e;
+}
+#foot table tr td a:hover{
+    color:#f69;
+}
+/* 页面底部结束 */

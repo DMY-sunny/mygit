@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>登录页面</title>
+    <link href="login/css/login.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="./js/jquery-1.8.3.min.js"></script>
+   
+   
+    <script type="text/javascript" src="login/js/login.js"></script>
+</head>
+<body >
+     <div id="container">
+          <!-- 头部开始 -->
+    	<div id="header">
+             <div class="logo fl"></div>  
+             <div class="head-text fr">
+               <p class="fr">              
+               <a href="">货到付款</a>
+               <a href="">正品保障</a>
+               <a href="">上门退款</a>
+               </p>
+               <br>
+               <p class="p1 fr" >由于近期网络邮箱信息泄露事件频发，建议您勿设置与邮箱密码相同的登录和支付密码，<a href="" >谨防诈骗！</a></p>            
+             </div>  
+        
+        </div>
+           <!-- 头部结束 -->
+         <div class="clear"></div>
+           <!-- 主体部分 -->
+         <div id="main">
+            <!-- 主体图片 -->
+            <div class="pic fl"><img src="images/logo.jpg" alt="" width="200px"></div>
+             <!-- 登录部分 -->
+            <div class="login fr">
+               <form action="index.html">
+                <table >
+                    <tr>
+                      <td colspan="2" ><input type="text" id="text" placeholder="邮箱/昵称/手机号码" class="textlength" size="35" required></td>
+                    </tr>
+                     <tr   id="texthidden"style="visibility:hidden;">
+                         <td  colspan="2" style="font-size:12px;" >
+                            <p >请输入邮箱/昵称/手机号码</p>
+                         </td>
+                     </tr>
+                      <tr>
+                      <td colspan="2"><input type="password" id="pwd" placeholder="密码" class="textlength" size="35" required></td>
+                    </tr>
+                     <tr id="pwdhidden" style="visibility:hidden;">
+                         <td colspan="2" style="font-size:12px;">
+                            <p>请填写长度为6-20个字符的密码</p>
+                         </td>
+                     </tr>
+                     
+                     <tr>
+                        <td align="left" class="fontsize">
+                           <input type="checkbox" name="" checked></input> 请勿在公用电脑上勾选此选项                       
+                        </td>
+                        <td align="right" > <a href="" style="font-size:13px; color:#00f">忘记密码?</a></td>
+                     </tr>
+                     <tr>
+                      <td colspan="2">
+                       <input type="submit" value="登&nbsp;&nbsp;录"
+                         class="textlength sub" size="35" 
+                         style="border-radius: 10px"
+                         onclick="a()"
+                        >
+                      </td>
+                     </tr>
+                     <tr>
+                        <td class="fontsize"><a href="" style="color:#787878">使用合作网站登录</a></td>
+                        <td><a href="register.html" class="fontsize">立即注册</a></td>
+                     </tr>
+                   <!--   <tr> 
+                        <td > <a href="http://www.qq.com"><img src="登录/img/3.png" alt="" style="position:0px -45px;"></a></td>
+                     </tr> -->
+                     
+               </table>
+           </form>
+            </div>
+        </div>
+        <!-- 主体结束 -->
+         <div class="clear"></div>
+         <!-- 页脚部分 -->
+         <div id="foot" class="fontsize">
+           <p>Copyright (C) 当当网 2004-2012, All Rights Reserved | 
+           <a href="" class="ajo">京ICP证041189号</a>
+           <a href="" class="ajo">音像制品经营许可证 京音网8号</a>
+           </p><br>
+           <p ><img src="login/img/validate.gif"> <img src="login/img/knetSealLogo.png"> </p>
+        </div>
+    </div>
+</body>
+</html>
